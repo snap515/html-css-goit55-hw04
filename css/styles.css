@@ -187,6 +187,24 @@ img {
     margin-right: 30px;
 }
 
+.icon-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    width: 270px;
+    height: 120px;
+    margin-bottom: 30px;
+
+    background: var(--secondary-background);
+    border-radius: 4px;
+}
+
+/* .features-icon {
+    color: #2196F3;
+    fill: #2196F3;
+} */
+
 .features-title {
     margin-bottom: 10px;
     color: var(--title-color);

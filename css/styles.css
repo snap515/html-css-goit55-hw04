@@ -108,14 +108,25 @@ img {
 .contacts-list {
     display: flex;
     margin-left: auto;
+    align-items: center;
 }
 
 .contacts-item:not(:last-child) {
     margin-right: 50px;
 }
+/* 
+.header-link-wrapper {
+    display:inline-block;
 
+} */
+.header-icon {
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 .header-contacts {
+    display: flex;
+    align-items: center;
     color:var(--text-color);
 
     font-weight: 500;
@@ -191,7 +202,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    display: inline-flex;
     width: 270px;
     height: 120px;
     margin-bottom: 30px;
@@ -199,11 +209,6 @@ img {
     background: var(--secondary-background);
     border-radius: 4px;
 }
-
-/* .features-icon {
-    color: #2196F3;
-    fill: #2196F3;
-} */
 
 .features-title {
     margin-bottom: 10px;
@@ -215,6 +220,7 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
+
 .features-text {
     font-weight: 400;
     font-size: 14px;
@@ -228,7 +234,7 @@ img {
     padding-top: 0px;
 }
 
-.activity-title {
+.section-title {
     margin-bottom: 50px;
     color: var(--title-color);
 
@@ -256,21 +262,8 @@ img {
     background-color: var(--secondary-background);
 }
 
-.team-title {
-    margin-bottom: 50px;
-    color: var(--title-color);
-
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-
 .team-list {
-    list-style: none;
     display: flex;
-    
 }
 
 .team-item {
@@ -309,6 +302,32 @@ img {
     line-height: 1.19;
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.social-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.social-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.social-link {
+    fill: var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+}
+
+.social-link:hover, .social-link:focus {
+    fill: #FFFFFF;
+    background-color: var(--brand-color);
 }
 
 /* Footer */
